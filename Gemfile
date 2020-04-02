@@ -7,10 +7,7 @@ gem 'grape'
 gem 'sequel'
 gem 'rack-cors'
 gem 'grape-swagger'
-
-group :production do
-  gem 'pg'
-end
+gem 'pg'
 
 group :development, :test do
   gem 'pry'
