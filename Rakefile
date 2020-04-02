@@ -25,7 +25,7 @@ namespace :db do
 
   desc 'Run all migrate in db/migrate'
   task migrate: :connect do
-    Sequel::Migrator.apply(DB, 'db/migrate')
+    Sequel::Migrator.run(DB, 'db/migrate')
     Rake::Task['db:version'].execute
   end
 
