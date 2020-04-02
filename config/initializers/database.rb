@@ -4,7 +4,8 @@ require 'yaml'
 require 'erb'
 
 # load Sequel Configuration
-settings = YAML.load_file('config/database.yml')
+#settings = YAML.load_file('config/database.yml')
+settings = YAML.load(ERB.new(File.read(File.join("config","database.yml"))).result) #for heroku
 DB = Sequel.connect(settings[ENV['RACK_ENV']])
 
 env = ENV['RACK_ENV'] || 'development'
