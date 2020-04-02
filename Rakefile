@@ -13,6 +13,7 @@ RSpec::Core::RakeTask.new(:spec)
 
 # Sequel migration tasks
 namespace :db do
+  require "sequel"
   Sequel.extension(:migration)
 
   desc "Prints current schema version"
