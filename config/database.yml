@@ -1,0 +1,7 @@
+development:
+  adapter: sqlite
+  database: moviesdev
+
+test:
+  adapter: sqlite
+  database: moviestest

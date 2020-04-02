@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a4b37add-ec8c-4e35-b7c9-5d81a6fc5164" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZulG1vQfJ3cMkHbsza4zEaYOrD" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spec/request" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/spec/request" />
+      <recent name="$PROJECT_DIR$/spec/lib/models" />
+      <recent name="$PROJECT_DIR$/lib/models" />
+      <recent name="$PROJECT_DIR$/api/endpoints" />
+      <recent name="$PROJECT_DIR$/db/migrate" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="20200401130418_CreateMovies" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="api_grape" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/db/migrate" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/db/migrate/20200401130418_CreateMovies.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.20200401130418_CreateMovies" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a4b37add-ec8c-4e35-b7c9-5d81a6fc5164" name="Default Changelist" comment="" />
+      <created>1585696760945</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585696760945</updated>
+      <workItem from="1585696763042" duration="24563000" />
+      <workItem from="1585781142046" duration="38450000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1567" y="189" width="604" height="382" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585773208646">
+      <screen x="0" y="28" width="2390" height="740" />
+    </state>
+    <state x="1567" y="189" width="604" height="382" key="#com.intellij.fileTypes.FileTypeChooser/0.28.2390.740@0.28.2390.740" timestamp="1585773208646" />
+    <state x="624" y="156" width="424" height="480" key="FileChooserDialogImpl" timestamp="1585805140677">
+      <screen x="0" y="28" width="2390" height="740" />
+    </state>
+    <state x="466" y="156" width="424" height="480" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1585766935118" />
+    <state x="624" y="156" width="424" height="480" key="FileChooserDialogImpl/0.28.2390.740@0.28.2390.740" timestamp="1585805140677" />
+    <state width="1320" height="176" key="GridCell.Tab.0.bottom" timestamp="1585772883510">
+      <screen x="0" y="28" width="2390" height="740" />
+    </state>
+    <state width="1320" height="176" key="GridCell.Tab.0.bottom/0.28.2390.740@0.28.2390.740" timestamp="1585772883510" />
+    <state width="1320" height="176" key="GridCell.Tab.0.center" timestamp="1585772883509">
+      <screen x="0" y="28" width="2390" height="740" />
+    </state>
+    <state width="1320" height="176" key="GridCell.Tab.0.center/0.28.2390.740@0.28.2390.740" timestamp="1585772883509" />
+    <state width="1320" height="176" key="GridCell.Tab.0.left" timestamp="1585772883509">
+      <screen x="0" y="28" width="2390" height="740" />
+    </state>
+    <state width="1320" height="176" key="GridCell.Tab.0.left/0.28.2390.740@0.28.2390.740" timestamp="1585772883509" />
+    <state width="1320" height="176" key="GridCell.Tab.0.right" timestamp="1585772883510">
+      <screen x="0" y="28" width="2390" height="740" />
+    </state>
+    <state width="1320" height="176" key="GridCell.Tab.0.right/0.28.2390.740@0.28.2390.740" timestamp="1585772883510" />
+    <state x="331" y="137" width="704" height="522" key="find.popup" timestamp="1585820119368">
+      <screen x="0" y="28" width="2390" height="740" />
+    </state>
+    <state x="331" y="137" width="704" height="522" key="find.popup/0.28.2390.740@0.28.2390.740" timestamp="1585820119368" />
+    <state x="881" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1585787934676">
+      <screen x="0" y="28" width="1366" height="740" />
+    </state>
+    <state x="881" y="89" width="672" height="678" key="search.everywhere.popup/0.28.1366.740@0.28.1366.740" timestamp="1585787934676" />
+    <state x="1541" y="89" width="672" height="678" key="search.everywhere.popup/0.28.2390.740@0.28.2390.740" timestamp="1585771304026" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/api_grape@20200401130418_CreateMovies.rcov" NAME="20200401130418_CreateMovies Coverage Results" MODIFIED="1585772872738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/db/migrate" MODULE_NAME="api_grape" />
+  </component>
+</project>
