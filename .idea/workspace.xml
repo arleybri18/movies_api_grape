@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4b37add-ec8c-4e35-b7c9-5d81a6fc5164" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/config/initializers/database.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/database.rb" afterDir="false" />
-    </list>
+    <list default="true" id="a4b37add-ec8c-4e35-b7c9-5d81a6fc5164" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +85,7 @@
       <updated>1585696760945</updated>
       <workItem from="1585696763042" duration="24563000" />
       <workItem from="1585781142046" duration="38450000" />
-      <workItem from="1585854575066" duration="5011000" />
+      <workItem from="1585854575066" duration="5266000" />
     </task>
     <servers />
   </component>
