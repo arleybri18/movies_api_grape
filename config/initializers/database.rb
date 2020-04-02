@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require 'yaml'
+require 'erb'
 
 # load Sequel Configuration
 settings = YAML.load_file('config/database.yml')
