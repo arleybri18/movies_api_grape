@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4b37add-ec8c-4e35-b7c9-5d81a6fc5164" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/db.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/db.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/moviestest" beforeDir="false" afterPath="$PROJECT_DIR$/moviestest" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +90,7 @@
       <updated>1585696760945</updated>
       <workItem from="1585696763042" duration="24563000" />
       <workItem from="1585781142046" duration="38450000" />
-      <workItem from="1585854575066" duration="5778000" />
+      <workItem from="1585854575066" duration="6728000" />
     </task>
     <servers />
   </component>
