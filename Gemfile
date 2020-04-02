@@ -9,7 +9,7 @@ gem 'rack-cors'
 gem 'grape-swagger'
 
 group :production do
-  gem 'pg', '~> 0.18'
+  gem 'pg'
 end
 
 group :development, :test do
