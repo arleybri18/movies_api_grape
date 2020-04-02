@@ -4,9 +4,9 @@ require 'yaml'
 
 # load Sequel Configuration
 settings = YAML.load_file('config/database.yml')
-env = ENV['RACK_ENV'] || 'development'
-# connect to db
 DB = Sequel.connect(settings[ENV['RACK_ENV']])
+
+env = ENV['RACK_ENV'] || 'development'
 
 logger = if %w[development test].include? env
            log_dir = File.join(Dir.getwd, 'log')

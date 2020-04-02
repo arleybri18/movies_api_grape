@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4b37add-ec8c-4e35-b7c9-5d81a6fc5164" name="Default Changelist" comment="" />
+    <list default="true" id="a4b37add-ec8c-4e35-b7c9-5d81a6fc5164" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/database.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/database.rb" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -27,7 +30,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/config" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../movies_api2" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -85,7 +88,7 @@
       <updated>1585696760945</updated>
       <workItem from="1585696763042" duration="24563000" />
       <workItem from="1585781142046" duration="38450000" />
-      <workItem from="1585854575066" duration="3539000" />
+      <workItem from="1585854575066" duration="3798000" />
     </task>
     <servers />
   </component>
@@ -97,10 +100,10 @@
       <screen x="0" y="28" width="2390" height="740" />
     </state>
     <state x="1567" y="189" width="604" height="382" key="#com.intellij.fileTypes.FileTypeChooser/0.28.2390.740@0.28.2390.740" timestamp="1585773208646" />
-    <state x="357" y="156" width="374" height="480" key="FileChooserDialogImpl" timestamp="1585854652805">
+    <state x="357" y="156" width="374" height="480" key="FileChooserDialogImpl" timestamp="1585858374208">
       <screen x="0" y="28" width="1366" height="740" />
     </state>
-    <state x="357" y="156" width="374" height="480" key="FileChooserDialogImpl/0.28.1366.740/1366.0.1024.768@0.28.1366.740" timestamp="1585854652805" />
+    <state x="357" y="156" width="374" height="480" key="FileChooserDialogImpl/0.28.1366.740/1366.0.1024.768@0.28.1366.740" timestamp="1585858374208" />
     <state x="466" y="156" width="424" height="480" key="FileChooserDialogImpl/0.28.1366.740@0.28.1366.740" timestamp="1585766935118" />
     <state x="624" y="156" width="424" height="480" key="FileChooserDialogImpl/0.28.2390.740@0.28.2390.740" timestamp="1585805140677" />
     <state width="1320" height="176" key="GridCell.Tab.0.bottom" timestamp="1585772883510">
