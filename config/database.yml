@@ -1,3 +1,8 @@
+production:
+  adapter: postgresql
+  url: <%= ENV['DATABASE_URL'] %>
+  pool: 15
+
 development:
   adapter: sqlite
   database: moviesdev
@@ -5,8 +10,3 @@ development:
 test:
   adapter: sqlite
   database: moviestest
-
-production:
-  adapter: postgresql
-  url: <%= ENV['DATABASE_URL'] %>
-  pool: 15
