@@ -73,6 +73,32 @@ RSpec.describe '/api/v1/functions' do
       expect(last_response.status).to eq(200)
     end
 
+    it "should get list bookings from dates" do
+      movie = Movie.create(name: "new movie1", description: "description1", image_url: "url1", days_of_week: "1,3,5")
+      function1 = Function.create(date: DateTime.now, movie: movie, limit: 10)
+      function2 = Function.create(date: DateTime.now - 1.hour, movie: movie, limit: 10)
+      function3 = Function.create(date: DateTime.now - 1.week, movie: movie, limit: 10)
+      user = User.create(document_id: 123456, name: "New user")
+      booking1 = Booking.create(function: function1, user: user, num_persons: 2)
+      booking2 = Booking.create(function: function2, user: user, num_persons: 5)
+      get "/api/v1/functions/by_dates", {date_from: DateTime.now - 1.day, date_to: DateTime.now + 5.minute}
+
+      body = JSON.parse(last_response.body)
+      expect(last_response.status).to eq(200)
+      expect(body["total"]).to eq(2)
+      expect(body["data"][0]["function_id"]).to eq(function1.id)
+      expect(body["data"][0]["function_date"]).to eq(function1.date.to_s)
+      expect(body["data"][0]["movie"]).to eq(function1.movie.name)
+      expect(body["data"][0]["bookings"][0]["id"]).to eq(booking1.id)
+      expect(body["data"][0]["bookings"][0]["num_persons"]).to eq(booking1.num_persons)
+
+      expect(body["data"][1]["function_id"]).to eq(function2.id)
+      expect(body["data"][1]["function_date"]).to eq(function2.date.to_s)
+      expect(body["data"][1]["movie"]).to eq(function2.movie.name)
+      expect(body["data"][1]["bookings"][0]["id"]).to eq(booking2.id)
+      expect(body["data"][1]["bookings"][0]["num_persons"]).to eq(booking2.num_persons)
+    end
+    
   end
 
   context "Failure" do

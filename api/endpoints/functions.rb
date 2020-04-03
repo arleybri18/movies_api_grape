@@ -2,7 +2,31 @@ module Api
   module Endpoints
     class Functions < Grape::API
       include Models
+
       namespace :functions do
+
+        namespace :by_dates do
+          desc 'get all bookings from functions by date'
+          get do
+            date_from = params[:date_from].to_datetime
+            date_to = params[:date_to].to_datetime
+            functions = Function.where(date: (date_from)..(date_to)) if date_from && date_to
+            if functions
+              data = functions.map do |f|
+                {
+                    function_id: f.id, function_date: f.date, movie: f.movie.name,
+                    bookings: f.bookings.map {|b| {id: b.id, num_persons: b.num_persons, user_id: b.user.document_id}}
+                }
+              end
+              { :total => functions.count, :data => data}
+
+            else
+              {message: "not data found"}
+            end
+          end
+        end
+
+
         desc 'create function'
         params do
           requires :date, type: DateTime
@@ -86,24 +110,6 @@ module Api
             {status: "not found"}
           end
         end
-
-        namespace :by_dates do
-          desc 'get all bookings from functions by date'
-          params do
-            requires :date_from, type: DateTime
-            requires :date_to, type: DateTime
-          end
-          get do
-            movies = Movie.where(Sequel.like(:days_of_week, "%#{params[:day]}%"))
-            if movies
-              { :total => movies.count, :data => movies.map { |e| { :id => e.id, :name => e.name, :description => e.description, :image_url => e.image_url, :days_of_week => e.days_of_week, functions: e.functions.map {|f| {date: f.date, created_at: f.created_at}}} } }
-            else
-              status 404
-              {status: "not found"}
-            end
-          end
-        end
-
       end
     end
   end
